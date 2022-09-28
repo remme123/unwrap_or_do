@@ -1,11 +1,13 @@
 [package]
 name = "unwrap_or_do"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["WS. Jing"]
 description = "Unwrap the Result or do an expression followed by returning the result"
-license = "MIT"
+documentation = "https://docs.rs/unwrap_or_do"
 repository = "https://github.com/remme123/unwrap_or_do"
+license = "MIT"
+keywords = ["unwrap", "unwrap_err"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

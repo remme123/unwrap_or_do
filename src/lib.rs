@@ -32,7 +32,7 @@ macro_rules! unwrap_or_do {
     };
 }
 
-/// Unwrap [`Result`] or break the loop
+/// Unwrap [`Result`] or continue the loop
 #[macro_export]
 macro_rules! unwrap_or_break {
     ($expr:expr) => {
