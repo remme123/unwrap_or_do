@@ -1,6 +1,9 @@
 //! Unwrap the [`Result`] or do the expression
 //!
-//! Associated macros: unwrap_or_break, unwrap_or_continue, unwrap_or_log
+//! Associated macros: [`unwrap_or_break`], [`unwrap_or_continue`], [`unwrap_or_log`]
+//!
+//! This crate is not recommend as [`let else`](https://blog.rust-lang.org/2022/11/03/Rust-1.65.0.html#let-else-statements) is stable in Rust 1.65.
+//!
 
 #![cfg_attr(not(feature = "std"), no_std)]
 

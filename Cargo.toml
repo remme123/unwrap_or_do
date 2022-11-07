@@ -1,11 +1,9 @@
 [package]
 name = "unwrap_or_do"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-authors = ["WS. Jing"]
 description = "Unwrap the Result or do an expression followed by returning the result"
 documentation = "https://docs.rs/unwrap_or_do"
-repository = "https://github.com/remme123/unwrap_or_do"
 license = "MIT"
 keywords = ["unwrap", "unwrap_err"]
 
